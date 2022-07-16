@@ -1,0 +1,65 @@
+/* CSS para el body - etiquetas principales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Serif Display", serif;
+}
+
+header {
+  background-color: rgba(14, 15, 20, 0.556);
+}
+
+.titulo_principal {
+  font-size: 3em;
+}
+.titulo_secundario {
+  font-size: 2.2 em;
+}
+.subtitulo {
+  font-size: 1.25 em;
+}
+p {
+  font-size: 0.75 em;
+}
+ul {
+  list-style: none;
+}
+
+/* Estilos para el Header */
+.container__header {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.header__logo {
+  margin: 0;
+  padding: 25px 30px;
+}
+
+.header__nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* Estilos para el Main */
+.button-info {
+  font-size: 1 em;
+  font-weight: bold;
+  padding: 6px 18px;
+  border-radius: 7px;
+  border: 2px solid black;
+  color: white;
+  background-color: blueviolet;
+}
+
+.button-info:hover {
+  background-color: rgb(101, 47, 151);
+}
