@@ -9,14 +9,31 @@ body {
 }
 
 header {
-  background-color: rgba(14, 15, 20, 0.556);
+  background-color: rgba(12, 12, 12, 0.77);
+}
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+header a:hover{
+  color:blueviolet;
 }
 
 .titulo_principal {
   font-size: 3em;
+  color: whitesmoke;
 }
+
+.titulo_principal:hover{
+  color: rgb(234, 231, 20);
+}
+
 .titulo_secundario {
   font-size: 2.2 em;
+  margin-top:0;
 }
 .subtitulo {
   font-size: 1.25 em;
@@ -34,22 +51,101 @@ ul {
   margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 .header__logo {
   margin: 0;
   padding: 25px 30px;
+  font-size: 1.8em;
+  color: white;
 }
 
-.header__nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 5px;
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
-/* Estilos para el Main */
+.header__nav a{
+  font-size: 0.8em;
+}
+
+/* Estilos sección hero - main */
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90hv;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ) 
+  ,url('https://i.postimg.cc/3NyrjKgK/hero.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+
+.hero p{
+  color: white;
+  text-align: center;
+}
+
+/* Estilos para seccion productos */
+.section_container-productos{
+  text-align: center;
+}
+
+.container_productos{
+  padding: 80px 12px;
+  text-align: center;
+  background-color: rgb(238, 231, 231);
+}
+
+.container_productos p{
+  display: none;
+}
+
+#container_productos .carta{
+
+}
+
+.carta:first-child{
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ) 
+  ,url('https://i.postimg.cc/3NyrjKgK/hero.jpg');
+}
+
+.carta:nth-child(2){
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ) 
+  ,url('https://i.postimg.cc/3NyrjKgK/hero.jpg');
+
+}
+
+.carta:nth-child(3){
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ) 
+  ,url('https://i.postimg.cc/3NyrjKgK/hero.jpg');
+
+}
+
+
 .button-info {
   font-size: 1 em;
   font-weight: bold;
