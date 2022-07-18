@@ -139,7 +139,7 @@ ul {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("https://i.postimg.cc/7ZYwnMFS/Publicaci-n-de-Instagram-Descuento-Black-Friday-Blanco-Moderno.png");
+    url("https://i.postimg.cc/PqPG61mc/taza-foto.jpg");
 }
 
 .carta:nth-child(3) {
@@ -217,6 +217,5 @@ ul {
 
   .container__productos .carta {
     padding: 50px;
-    /* background-size: 100% 150px; */
   }
 }
