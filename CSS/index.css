@@ -3,12 +3,13 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
   font-family: "DM Serif Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -21,8 +22,8 @@ header a {
   color: white;
 }
 
-header a:hover{
-  color:blueviolet;
+header a:hover {
+  color: blueviolet;
 }
 
 .titulo_principal {
@@ -30,13 +31,13 @@ header a:hover{
   color: whitesmoke;
 }
 
-.titulo_principal:hover{
+.titulo_principal:hover {
   color: rgb(234, 231, 20);
 }
 
 .titulo_secundario {
   font-size: 2.5 em;
-  margin-top:0;
+  margin-top: 0;
 }
 .subtitulo {
   font-size: 1.25 em;
@@ -64,20 +65,20 @@ ul {
   color: white;
 }
 
-.header__nav{
+.header__nav {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-bottom: 10px;
 }
 
-.header__nav a{
+.header__nav a {
   font-size: 0.8em;
 }
 
 /* Estilos sección hero - main */
 
-#hero{
+#hero {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,37 +86,37 @@ ul {
   flex-direction: column;
   height: 80vh;
   background-image: linear-gradient(
-    0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-  ) 
-  ,url('https://i.postimg.cc/3NyrjKgK/hero.jpg');
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://i.postimg.cc/3NyrjKgK/hero.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center center;
 }
 
-#hero p{
+#hero p {
   color: white;
   text-align: center;
 }
 
 /* Estilos para seccion productos */
-#section_container-productos{
+#section_container-productos {
   text-align: center;
 }
 
-.container__productos{
+.container__productos {
   padding: 80px 12px;
   text-align: center;
   background-color: rgb(238, 231, 231);
 }
 
-.container__productos p{
+.container__productos p {
   display: none;
 }
 
-.container__productos .carta{
+.container__productos .carta {
   background-position: center center;
   background-size: cover;
   padding: 40px 0px;
@@ -123,33 +124,32 @@ ul {
   border-radius: 15px;
 }
 
-.carta:first-child{
+.carta:first-child {
   background-image: linear-gradient(
-    0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-  ) 
-  ,url('https://i.postimg.cc/FRKqGVhk/mens-heavyweight-tee-sport-grey.jpg');
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://i.postimg.cc/FRKqGVhk/mens-heavyweight-tee-sport-grey.jpg");
 }
 
-.carta:nth-child(2){
+.carta:nth-child(2) {
   background-image: linear-gradient(
-    0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-  ) 
-  ,url('https://i.postimg.cc/7ZYwnMFS/Publicaci-n-de-Instagram-Descuento-Black-Friday-Blanco-Moderno.png');
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://i.postimg.cc/7ZYwnMFS/Publicaci-n-de-Instagram-Descuento-Black-Friday-Blanco-Moderno.png");
 }
 
-.carta:nth-child(3){
+.carta:nth-child(3) {
   background-image: linear-gradient(
-    0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-  ) 
-  ,url('https://i.postimg.cc/Pqy9mRnk/white-glossy-mug-11oz-donuts-61b.jpg');
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://i.postimg.cc/Pqy9mRnk/white-glossy-mug-11oz-donuts-61b.jpg");
 }
-
 
 .button-info {
   font-size: 1 em;
@@ -166,13 +166,12 @@ ul {
 }
 
 /* estilos para el footer */
-.div__footer-div{
+.div__footer-div {
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
-
 
 .listado {
   list-style: none;
@@ -180,7 +179,7 @@ ul {
   padding: 0;
 }
 
-.div__footer p{
+.div__footer p {
   padding: none;
   margin: 0;
   text-align: center;
@@ -188,37 +187,36 @@ ul {
 
 /* para la versión web */
 
-@media(min-width: 720px){
+@media (min-width: 720px) {
   header {
     position: fixed;
     width: 100%;
   }
-  .container__header{
+  .container__header {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .header__nav{
+  .header__nav {
     flex-direction: row;
     padding-bottom: 0;
     padding-right: 25px;
   }
 
   /* seccion de productos */
-  .productos{
+  .productos {
     display: flex;
     justify-content: center;
   }
 
-  .container__productos p{
+  .container__productos p {
     display: block;
     margin-bottom: 30px;
     color: white;
   }
 
-  .container__productos .carta{
-    padding:50px;
+  .container__productos .carta {
+    padding: 50px;
     /* background-size: 100% 150px; */
   }
-
 }
