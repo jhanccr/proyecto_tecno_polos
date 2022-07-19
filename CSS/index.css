@@ -8,8 +8,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: "DM Serif Display", serif;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -31,17 +30,20 @@ header a:hover {
   color: whitesmoke;
 }
 
-.titulo_principal:hover {
+.titulo_principal:hover{
   color: rgb(234, 231, 20);
 }
 
-.titulo_secundario {
+.titulo_secundario{
   font-size: 2.5 em;
   margin-top: 0;
 }
-.subtitulo {
+
+.subtitulo{
   font-size: 1.25 em;
+  color: white;
 }
+
 p {
   font-size: 0.75 em;
 }
@@ -212,7 +214,7 @@ ul {
   .container__productos p {
     display: block;
     margin-bottom: 30px;
-    color: white;
+    color: whitesmoke;
   }
 
   .container__productos .carta {
