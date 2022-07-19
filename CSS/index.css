@@ -44,6 +44,10 @@ header a:hover {
   color: white;
 }
 
+.subtitulo:hover{
+  color: greenyellow;
+}
+
 p {
   font-size: 0.75 em;
 }
