@@ -197,4 +197,25 @@ ul {
   .container__productos .carta {
     padding: 50px;
   }
+
+  .card {
+    max-width: 512px;
+  }
+
+  .card__body {
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .card__body-title {
+    font-size: 1.5rem;
+  }
+
+  .card__body-keywords {
+    font-size: 1.25rem;
+  }
+
+  .card__body-presentation {
+    font-size: 1rem;
+  }
 }
