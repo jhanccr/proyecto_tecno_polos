@@ -1,3 +1,9 @@
+
+@import './header.css';
+@import './variables.css';
+@import './suscribete.css';
+@import './footer.css';
+
 /* CSS para el body - etiquetas principales */
 * {
   box-sizing: border-box;
@@ -6,24 +12,14 @@
 html {
   scroll-behavior: smooth;
 }
-body {
+
+.body {
+  background-color: var(--primary-theme-color);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-family);
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
 }
 
-header {
-  background-color: rgba(12, 12, 12, 0.77);
-}
-header a {
-  padding: 5px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-}
-
-header a:hover {
-  color: blueviolet;
-}
 
 .titulo_principal {
   font-size: 3em;
@@ -31,7 +27,7 @@ header a:hover {
 }
 
 .titulo_principal:hover{
-  color: rgb(234, 231, 20);
+  color:var(--secondary-tex-color);
 }
 
 .titulo_secundario{
@@ -53,33 +49,6 @@ p {
 }
 ul {
   list-style: none;
-}
-
-/* Estilos para el Header */
-.container__header {
-  max-width: 1400px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.header__logo {
-  margin: 0;
-  padding: 25px 30px;
-  font-size: 1.8em;
-  color: white;
-}
-
-.header__nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.header__nav a {
-  font-size: 0.8em;
 }
 
 /* Estilos sección hero - main */
@@ -189,6 +158,10 @@ ul {
   padding: none;
   margin: 0;
   text-align: center;
+}
+
+#nuestras_redes h3 {
+  color:black;
 }
 
 /* para la versión web */
