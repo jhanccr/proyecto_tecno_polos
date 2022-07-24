@@ -1,8 +1,10 @@
-
+@import './productos.css';
 @import './header.css';
 @import './variables.css';
 @import './suscribete.css';
+@import './hero.css';
 @import './footer.css';
+@import './testimonios.css';
 
 /* CSS para el body - etiquetas principales */
 * {
@@ -44,127 +46,7 @@ html {
   color: greenyellow;
 }
 
-p {
-  font-size: 0.75 em;
-}
-ul {
-  list-style: none;
-}
 
-/* Estilos sección hero - main */
-
-#hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  height: 80vh;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("https://i.postimg.cc/3NyrjKgK/hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-#hero p {
-  color: white;
-  text-align: center;
-}
-
-/* Estilos para seccion productos */
-#section_container-productos {
-  text-align: center;
-}
-
-.container__productos {
-  padding: 80px 12px;
-  text-align: center;
-  background-color: rgb(238, 231, 231);
-}
-
-.container__productos p {
-  display: none;
-}
-
-.container__productos .carta {
-  background-position: center center;
-  background-size: cover;
-  padding: 40px 0px;
-  margin: 10px;
-  border-radius: 15px;
-}
-
-.carta:first-child {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("https://i.postimg.cc/05cbJvJP/4.jpg");
-}
-
-.carta:nth-child(2) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("https://i.postimg.cc/8zWpwgsF/3.jpg");
-}
-
-.carta:nth-child(3) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("https://i.postimg.cc/FzRFxfJm/5.jpg");
-}
-
-.button-info {
-  font-size: 1 em;
-  font-weight: bold;
-  padding: 6px 18px;
-  border-radius: 7px;
-  border: 2px solid black;
-  color: white;
-  background-color: blueviolet;
-}
-
-.button-info:hover {
-  background-color: rgb(101, 47, 151);
-}
-
-/* estilos para el footer */
-.div__footer-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.listado {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.div__footer p {
-  padding: none;
-  margin: 0;
-  text-align: center;
-}
-
-#nuestras_redes h3 {
-  color:black;
-}
-
-/* para la versión web */
 
 @media (min-width: 720px) {
   header {

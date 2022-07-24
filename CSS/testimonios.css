@@ -1,0 +1,51 @@
+.testimonials{
+    display:flex;
+    flex-direction:rows;
+    align-items: center;
+    justify-content:center;
+    background-color: #fff;
+}
+
+.testimonios {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #3c3c3c;
+  display: flex;
+  flex-direction: columns;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  min-width: 250px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 10px solid #3575d3;
+  border-bottom: 5px solid #3575d3;
+}
+.testimonios *,
+.testimonios *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+.testimonios figcaption {
+  padding: 13% 10% 12%;
+}
+.testimonios h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+.testimonios h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+.testimonios blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}

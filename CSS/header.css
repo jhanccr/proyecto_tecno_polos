@@ -100,7 +100,7 @@
   
   .header-nav__menu-link:hover,
   .header-nav__menu-link--active {
-    color: var(--primary-highlight-color);
+    color: var(--secondary-tex-color);
   }
   
   .header-nav__menu-link::after {
