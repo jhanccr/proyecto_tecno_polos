@@ -10,14 +10,21 @@
       var(--color-linear-gradient),
       var(--color-linear-gradient)
     ),
-    url("https://i.postimg.cc/3NyrjKgK/hero.jpg");
+    url("https://i.postimg.cc/W1tP3jxJ/52829-programacion.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
+
+#hero h1 {
+  color: var(--primary-text-color);
+  text-align: center;
+  font-size: 40px;
+}
+
 #hero p {
   color: var(--primary-text-color);
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }

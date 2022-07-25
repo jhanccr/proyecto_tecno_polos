@@ -29,5 +29,10 @@
 
   .card__footer h3 {
     margin: 0;
-    padding-right: 1rem;
+    text-align: center;
+  }
+
+  .card__footer p {
+    margin: 0;
+    text-align: center;
   }

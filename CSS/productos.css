@@ -5,15 +5,24 @@
 .container__productos {
   padding: 80px 12px;
   text-align: center;
-  background-color: rgb(238, 231, 231);
+  background-color: var(--primary-text-color);
 }
 
 .container__productos:first-child {
-  color: black;
+  color: var(--primary-text-color);
 }
 
 .container__productos p {
   display: none;
+}
+
+
+.carta h3:hover {
+    color: var(--primary-highlight-color);  
+}
+
+.carta p:hover {
+    color: var(--secondary-highlight-color);  
 }
 
 .container__productos .carta {
@@ -27,8 +36,8 @@
 .carta:first-child {
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      var(--color-linear-gradient),
+      var(--color-linear-gradient)
     ),
     url("https://i.postimg.cc/65pp0MBK/mens-heavyweight-tee-sport-grey-front-2-61b4271a5c015.jpg");
 }
@@ -36,8 +45,8 @@
 .carta:nth-child(2) {
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      var(--color-linear-gradient),
+      var(--color-linear-gradient)
     ),
     url("https://i.postimg.cc/8zWpwgsF/3.jpg");
 }
@@ -45,20 +54,20 @@
 .carta:nth-child(3) {
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      var(--color-linear-gradient),
+      var(--color-linear-gradient)
     ),
     url("https://i.postimg.cc/6Q0J2NFN/stickers-programadores.jpg");
 }
 
 .carta:nth-child(4) {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url("https://i.postimg.cc/FzRFxfJm/5.jpg");
-  }
+  background-image: linear-gradient(
+      0deg,
+      var(--color-linear-gradient),
+      var(--color-linear-gradient)
+    ),
+    url("https://i.postimg.cc/FzRFxfJm/5.jpg");
+}
 
 .button-info {
   font-size: 1 em;
@@ -66,10 +75,10 @@
   padding: 6px 18px;
   border-radius: 7px;
   border: 2px solid black;
-  color: white;
-  background-color: blueviolet;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-tex-color);
 }
 
 .button-info:hover {
-  background-color: rgb(101, 47, 151);
+  background-color: var(--secondary-tex-color);
 }
